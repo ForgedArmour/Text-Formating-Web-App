@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+    background-color: #fff;
+}
+nav{
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding: 3px 2%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lnk{
+    text-decoration: none;
+    /* color: black; */
+    padding: 3px 15px;
+    
+    /* transition-duration: 1s; */
+}
+.lnk:hover{
+    border-bottom: 3px solid rgba(255, 166, 0, 0.589);
+    
+    /* background: lightgray; */
+    /* border-radius: 5px; */
+}
+
+li{
+    
+    list-style: none;
+    margin-right: 20px;
+
+    /* display: inline-block; */
+}
+
+.logo{
+    font-size: 2rem;
+    margin-right: 30px;
+    color: tomato;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.right-content input{
+    padding: 5px;
+    outline:none;
+    border: 2px solid lightgray;
+    margin-right: 5px;
+    font-size: 0.9em;
+
+}
+.right-content input:focus{
+    border: 2px solid tomato;
+}
+
+
+
+@media only screen and (max-width: 930px) {
+    nav{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    nav .links{
+        margin: 1.5em;
+    }
+    .right-content{
+        margin: 0 0 1em 0;
+    }
+    .links li{
+        margin-right: 0px;
+    }
+    .lnk{
+       font-size: 0.9rem;
+       padding: 0 0.7em;
+    }
+    .logo{
+        font-size: 1.7em;
+        padding: 10px 0 0 0;
+    }
+    .main-content .txt{
+        width: 25em;
+    }
+}
+
+.right-content img{
+    width: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.btn1{
+    cursor: pointer;
+    background: tomato;
+    border: none;
+    padding: 0.5em 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+.btn1:hover{
+    background: transparent;
+    outline: 3px solid tomato;
+    color: rgb(255, 255, 255);
+}
+
+.nav-dark{
+    background-color: rgb(32 32 32);
+}
+.nav-light{
+    background-color: #fff;
+}
+.txt-light{
+    color: black;
+}
+.txt-dark{
+    color: #fff;
+}
+.a{
+    text-decoration: none;
+}

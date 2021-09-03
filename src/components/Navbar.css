@@ -71,8 +71,8 @@ li{
         flex-direction: column;
         /* align-items: center; */
     }
-    nav .links{
-        margin: 1.5em;
+    nav .Links{
+        margin: 1.9em 0;
     }
     .right-content{
         margin: 0 0 1em 0;
@@ -85,8 +85,8 @@ li{
        padding: 0 0.7em;
     }
     .logo{
-        font-size: 1.7em;
-        padding: 10px 0 0 0;
+        font-size: 1.5em;
+        margin: 30px 0;
     }
     .main-content .txt{
         width: 25em;

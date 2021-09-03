@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css';
 import PropTypes from 'prop-types'
 import moon from "../moon.png"
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function Navbar(props) {
     
@@ -17,14 +17,13 @@ export default function Navbar(props) {
         <>  
             <nav className={`flex-container nav-${props.mode}`}>
                 <div className="left-content flex-container">
-                    <h1><Link to="/" className="logo">{props.title}</Link></h1>
+                    <h1><a href="/" className="logo">{props.title}</a></h1>
                 </div>
                 <div className="Links">
                     <ul className="flex-container">
-                        <li><Link to="/" className={`txt-${props.mode} lnk`}>Home</Link></li>
-                        <li><Link to="/" className={`txt-${props.mode} lnk`}>Contact</Link></li>
-                        <li><Link to="/about" className={`txt-${props.mode} lnk`}>About</Link></li>
-                        <li><Link to="/" className={`txt-${props.mode} lnk`}>Services</Link></li>
+                        <li><a href="/" className={`txt-${props.mode} lnk`}>Home</a></li>
+                        {/* <li><a href="/about" className={`txt-${props.mode} lnk`}>About</a></li>
+                        <li><a href="/services" className={`txt-${props.mode} lnk`}>Services</a></li> */}
                     </ul>
                 </div>
         

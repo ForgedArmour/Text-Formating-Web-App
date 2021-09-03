@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import './TextForm.css';
-import Navbar from './Navbar';
 
 
 export default function TextForm(props) {
@@ -70,7 +69,7 @@ export default function TextForm(props) {
         <>
             <div className="main-content flex-container" >
                 <h2 className={`tit my-3 txt-${props.mode}`}>Enter the text to Analyze</h2>
-                <textarea className="txt" placeholder="Enter your text here" cols="100" rows="10" onChange={handleChange} value={text} className={`inp-${props.mode}`}></textarea>
+                <textarea placeholder="Enter your text here" cols="100" rows="10" onChange={handleChange} value={text} className={`txt inp-${props.mode}`}></textarea>
                 <div className="button my-3">
                     <button className="btn mx1-3" onClick={handleClick}>UpperCase</button>
                     <button className="btn mx1-3" onClick={handleClear}>Clear</button>

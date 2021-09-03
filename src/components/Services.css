@@ -1,15 +1,14 @@
 h1{
     text-align: center;
 }
-.container{
+.services-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
 
 }
-.about-content{
-    width: 50%;
+.services-content{
     padding: 10px;
     text-align: center;
     margin-top: 2%;

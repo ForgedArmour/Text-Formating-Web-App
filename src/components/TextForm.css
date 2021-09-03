@@ -37,7 +37,7 @@
     }
 }
 
-.btn{
+.btn-light{
     cursor: pointer;
     background: tomato;
     border: none;
@@ -45,10 +45,23 @@
     font-weight: bold;
     color: #fff;
 }
-.btn:hover{
+.btn-light:hover{
     background: transparent;
     outline: 3px solid tomato;
     color: rgba(0, 0, 0, 1);
+}
+.btn-dark{
+    cursor: pointer;
+    background: tomato;
+    border: none;
+    padding: 0.5em 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+.btn-dark:hover{
+    background: transparent;
+    outline: 3px solid tomato;
+    color: #fff;
 }
 
 .main-content .txt{

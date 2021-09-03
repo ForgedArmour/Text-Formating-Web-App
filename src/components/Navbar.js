@@ -21,7 +21,7 @@ export default function Navbar(props) {
                 </div>
                 <div className="Links">
                     <ul className="flex-container">
-                        <li><a href="/" className={`txt-${props.mode} lnk`}>Home</a></li>
+                        {/* <li><a href="/" className={`txt-${props.mode} lnk`}>Home</a></li> */}
                         {/* <li><a href="/about" className={`txt-${props.mode} lnk`}>About</a></li>
                         <li><a href="/services" className={`txt-${props.mode} lnk`}>Services</a></li> */}
                     </ul>
@@ -29,7 +29,7 @@ export default function Navbar(props) {
         
                 <div className="right-content flex-container">
                     <input type="text" placeholder="Search" />
-                    <button className="btn">Search</button>
+                    <button className={`btn-${props.mode}`}>Search</button>
                     <img src={moon} alt="" className="mBtn" onClick={handleDark} />
                 </div>
             </nav>    

@@ -39,7 +39,7 @@ nav{
 li{
     
     list-style: none;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 
     /* display: inline-block; */
 }
@@ -68,7 +68,9 @@ li{
 
 @media only screen and (max-width: 930px) {
     nav{
+        
         flex-direction: column;
+        /* justify-content: center; */
         /* align-items: center; */
     }
     nav .Links{
@@ -86,7 +88,7 @@ li{
     }
     .logo{
         font-size: 1.5em;
-        margin: 30px 0;
+        margin: 30px 0 0 0;
     }
     .main-content .txt{
         width: 25em;
@@ -101,19 +103,6 @@ li{
     border-radius: 50%;
 }
 
-.btn1{
-    cursor: pointer;
-    background: tomato;
-    border: none;
-    padding: 0.5em 1.2em;
-    font-weight: bold;
-    color: #fff;
-}
-.btn1:hover{
-    background: transparent;
-    outline: 3px solid tomato;
-    color: rgb(255, 255, 255);
-}
 
 .nav-dark{
     background-color: rgb(32 32 32);

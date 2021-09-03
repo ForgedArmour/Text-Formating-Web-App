@@ -71,10 +71,10 @@ export default function TextForm(props) {
                 <h2 className={`tit my-3 txt-${props.mode}`}>Enter the text to Analyze</h2>
                 <textarea placeholder="Enter your text here" cols="100" rows="10" onChange={handleChange} value={text} className={`txt inp-${props.mode}`}></textarea>
                 <div className="button my-3">
-                    <button className="btn mx1-3" onClick={handleClick}>UpperCase</button>
-                    <button className="btn mx1-3" onClick={handleClear}>Clear</button>
-                    <button className="btn mx1-3" onClick={handleFormat}>Format</button>
-                    <button className="btn" onClick={handleCopy}>Copy</button>
+                    <button className={`btn-${props.mode} mx1-3`} onClick={handleClick}>UpperCase</button>
+                    <button className={`btn-${props.mode} mx1-3`} onClick={handleClear}>Clear</button>
+                    <button className={`btn-${props.mode} mx1-3`} onClick={handleFormat}>Format</button>
+                    <button className={`btn-${props.mode} mx1-3`} onClick={handleCopy}>Copy</button>
                 </div>
                 
                 <table className="table my-3">

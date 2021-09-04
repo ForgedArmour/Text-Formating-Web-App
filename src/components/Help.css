@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+.help-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+
+}
+.help-content{
+    padding: 10px;
+    text-align: center;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span{
+    color: tomato;
+}
+.help-text{
+    line-height: 2.5em;
+}
+.help-title{
+    color: tomato;
+}
+.tbl,.tbl td,.tbl th{
+    /* border-bottom: 2px solid tomato; */
+    text-align: left;
+    border-collapse: collapse;
+    padding: 5px 30px;
+}
+.tbl th{
+    color: tomato;
+}
+
+@media only screen and (max-width: 930px) {
+    .tbl td,.tbl th{
+        font-size: 0.9em;
+    }
+    .title-txt{
+        font-size: 1.5em;
+    }
+}

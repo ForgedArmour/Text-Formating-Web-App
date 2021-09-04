@@ -80,11 +80,12 @@ li{
         margin: 0 0 1em 0;
     }
     .links li{
-        margin-right: 0px;
+        margin:0;
     }
     .lnk{
        font-size: 0.9rem;
-       padding: 0 0.7em;
+       padding: 0 3px;
+       font-weight: bold;
     }
     .logo{
         font-size: 1.5em;

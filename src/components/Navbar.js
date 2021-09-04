@@ -17,12 +17,13 @@ export default function Navbar(props) {
         <>  
             <nav className={`flex-container nav-${props.mode}`}>
                 <div className="left-content flex-container">
-                    <h1><Link to="/" className="logo">{props.title}</Link></h1>
+                    <h1><Link to="/TextUtils-React/" className="logo">{props.title}</Link></h1>
                 </div>
                 <div className="Links">
                     <ul className="flex-container">
-                        <li><Link to="/TextUtils-React" className={`txt-${props.mode} lnk`}>Home</Link></li>
+                        <li><Link to="/TextUtils-React/" className={`txt-${props.mode} lnk`}>Home</Link></li>
                         <li><Link to="/TextUtils-React/about" className={`txt-${props.mode} lnk`}>About</Link></li>
+                        <li><Link to="/TextUtils-React/help" className={`txt-${props.mode} lnk`}>HowTo?</Link></li>
                         <li><Link to="/TextUtils-React/services" className={`txt-${props.mode} lnk`}>Services</Link></li>
                     </ul>
                 </div>

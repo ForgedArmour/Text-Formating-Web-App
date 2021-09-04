@@ -8,9 +8,12 @@ import {
     Switch,
     Route,
   } from "react-router-dom";
+import Help from './components/Help';
+import Alert from './components/Alert';
 
 function App(){
     const [mode,setMode] = useState('light');
+    const [alert,setAlert] = useState(null);
     const toggle = ()=>{
         if (mode === 'light') {
             setMode('dark');
@@ -22,11 +25,24 @@ function App(){
             document.body.style.background = "white"
         }
     }
+    const showAlert = (msg)=>{
+        setAlert({
+            message:msg
+        });
+        setTimeout(()=>{
+            setAlert(null);
+        },1000);
+        
+    }
     return(
         <>
             <Router> 
                 <Navbar title="TextUtils" mode = {mode} modeSwitch={toggle} />  
+                <Alert msg={alert} />
                 <Switch>
+                    <Route path="/TextUtils-React/help">
+                        <Help mode={mode} />
+                    </Route>
                     <Route path="/TextUtils-React/services">
                         <Services mode={mode} />
                     </Route>
@@ -34,7 +50,7 @@ function App(){
                         <About mode={mode} />
                     </Route>
                     <Route path="/TextUtils-React/">
-                        <TextForm mode = {mode}/>
+                        <TextForm mode = {mode} showAlert = {showAlert} />
                     </Route>
                 </Switch>
             </Router>

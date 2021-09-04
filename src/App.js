@@ -1,13 +1,13 @@
 import { useState } from 'react';
-// import About from './components/About';
+import About from './components/About';
 import Navbar from './components/Navbar'
 import TextForm from './components/TextForm';
-// import Services from './components/Services'
-// import {
-//     BrowserRouter as Router,
-//     Switch,
-//     Route,
-//   } from "react-router-dom";
+import Services from './components/Services'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+  } from "react-router-dom";
 
 function App(){
     const [mode,setMode] = useState('light');
@@ -24,20 +24,20 @@ function App(){
     }
     return(
         <>
-            {/* <Router>  */}
+            <Router> 
                 <Navbar title="TextUtils" mode = {mode} modeSwitch={toggle} />  
-                {/* <Switch>
+                <Switch>
                     <Route path="/services">
                         <Services mode={mode} />
                     </Route>
                     <Route path="/about">
                         <About mode={mode} />
                     </Route>
-                    <Route path="/"> */}
+                    <Route path="/">
                         <TextForm mode = {mode}/>
-                    {/* </Route>
+                    </Route>
                 </Switch>
-            </Router> */}
+            </Router>
         </>
     );
 }

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/TextUtils-React/static/css/main.4fdb76f6.chunk.css",
-    "main.js": "/TextUtils-React/static/js/main.ebbf80cd.chunk.js",
-    "main.js.map": "/TextUtils-React/static/js/main.ebbf80cd.chunk.js.map",
-    "runtime-main.js": "/TextUtils-React/static/js/runtime-main.1f5ad49c.js",
-    "runtime-main.js.map": "/TextUtils-React/static/js/runtime-main.1f5ad49c.js.map",
-    "static/js/2.4286919e.chunk.js": "/TextUtils-React/static/js/2.4286919e.chunk.js",
-    "static/js/2.4286919e.chunk.js.map": "/TextUtils-React/static/js/2.4286919e.chunk.js.map",
-    "static/js/3.c521b26b.chunk.js": "/TextUtils-React/static/js/3.c521b26b.chunk.js",
-    "static/js/3.c521b26b.chunk.js.map": "/TextUtils-React/static/js/3.c521b26b.chunk.js.map",
+    "main.css": "/TextUtils-React/static/css/main.ed22a93a.chunk.css",
+    "main.js": "/TextUtils-React/static/js/main.648756b3.chunk.js",
+    "main.js.map": "/TextUtils-React/static/js/main.648756b3.chunk.js.map",
+    "runtime-main.js": "/TextUtils-React/static/js/runtime-main.024735cc.js",
+    "runtime-main.js.map": "/TextUtils-React/static/js/runtime-main.024735cc.js.map",
+    "static/js/2.eac41881.chunk.js": "/TextUtils-React/static/js/2.eac41881.chunk.js",
+    "static/js/2.eac41881.chunk.js.map": "/TextUtils-React/static/js/2.eac41881.chunk.js.map",
+    "static/js/3.5602b755.chunk.js": "/TextUtils-React/static/js/3.5602b755.chunk.js",
+    "static/js/3.5602b755.chunk.js.map": "/TextUtils-React/static/js/3.5602b755.chunk.js.map",
     "index.html": "/TextUtils-React/index.html",
-    "static/css/main.4fdb76f6.chunk.css.map": "/TextUtils-React/static/css/main.4fdb76f6.chunk.css.map",
-    "static/js/2.4286919e.chunk.js.LICENSE.txt": "/TextUtils-React/static/js/2.4286919e.chunk.js.LICENSE.txt",
+    "static/css/main.ed22a93a.chunk.css.map": "/TextUtils-React/static/css/main.ed22a93a.chunk.css.map",
+    "static/js/2.eac41881.chunk.js.LICENSE.txt": "/TextUtils-React/static/js/2.eac41881.chunk.js.LICENSE.txt",
     "static/media/moon.c7c4d4f9.png": "/TextUtils-React/static/media/moon.c7c4d4f9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f5ad49c.js",
-    "static/js/2.4286919e.chunk.js",
-    "static/css/main.4fdb76f6.chunk.css",
-    "static/js/main.ebbf80cd.chunk.js"
+    "static/js/runtime-main.024735cc.js",
+    "static/js/2.eac41881.chunk.js",
+    "static/css/main.ed22a93a.chunk.css",
+    "static/js/main.648756b3.chunk.js"
   ]
 }

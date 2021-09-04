@@ -27,13 +27,13 @@ function App(){
             <Router> 
                 <Navbar title="TextUtils" mode = {mode} modeSwitch={toggle} />  
                 <Switch>
-                    <Route path="/services">
+                    <Route path="/TextUtils-React/services">
                         <Services mode={mode} />
                     </Route>
-                    <Route path="/about">
+                    <Route path="/TextUtils-React/about">
                         <About mode={mode} />
                     </Route>
-                    <Route path="/">
+                    <Route path="/TextUtils-React/">
                         <TextForm mode = {mode}/>
                     </Route>
                 </Switch>

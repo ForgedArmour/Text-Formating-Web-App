@@ -21,9 +21,9 @@ export default function Navbar(props) {
                 </div>
                 <div className="Links">
                     <ul className="flex-container">
-                        <li><Link to="/" className={`txt-${props.mode} lnk`}>Home</Link></li>
-                        <li><Link to="/about" className={`txt-${props.mode} lnk`}>About</Link></li>
-                        <li><Link to="/services" className={`txt-${props.mode} lnk`}>Services</Link></li>
+                        <li><Link to="/TextUtils-React" className={`txt-${props.mode} lnk`}>Home</Link></li>
+                        <li><Link to="/TextUtils-React/about" className={`txt-${props.mode} lnk`}>About</Link></li>
+                        <li><Link to="/TextUtils-React/services" className={`txt-${props.mode} lnk`}>Services</Link></li>
                     </ul>
                 </div>
         

@@ -37,19 +37,19 @@ function App(){
     return(
         <>
             <Router> 
-                <Navbar title="TextUtils" mode = {mode} modeSwitch={toggle} />  
+                <Navbar title="TextMate" mode = {mode} modeSwitch={toggle} />  
                 <Alert msg={alert} />
                 <Switch>
-                    <Route path="/TextUtils-React/help">
+                    <Route path="/help">
                         <Help mode={mode} />
                     </Route>
-                    <Route path="/TextUtils-React/services">
+                    <Route path="/services">
                         <Services mode={mode} />
                     </Route>
-                    <Route path="/TextUtils-React/about">
+                    <Route path="/about">
                         <About mode={mode} />
                     </Route>
-                    <Route path="/TextUtils-React/">
+                    <Route path="/">
                         <TextForm mode = {mode} showAlert = {showAlert} />
                     </Route>
                 </Switch>
